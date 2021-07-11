@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class TodolistControllerTest < ActionDispatch::IntegrationTest
+class TodolistsControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get todolist_new_url
+    get todolists_new_url
     assert_response :success
   end
 
